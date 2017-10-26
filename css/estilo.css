@@ -37,7 +37,33 @@ body{
 	margin: 30;
 	margin-right: 30;
 	margin-left: 30;
-	font-family: "cartoon", Helvetica;
+	font-size: 20;
+}
+
+#conceptos{
+	margin-right: 30;
+	margin-left: 30;
+	font-size: 20;
+}
+
+#titulo_conceptos{
+	margin: 0;
+	color: #134F5C;
+
+}
+
+#definicion_conceptos{
+	margin: 0;
+}
+
+#seguir_leyendo{
+	color: #134F5C;
+}
+
+#img_conceptos{
+	width: 400;
+	margin-right: 30;
+	margin-left: 30;
 }
 
 #piepagina{
