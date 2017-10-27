@@ -1,8 +1,6 @@
 @font-face {
-    font-family: 'cartoon';
-    src: url('../fonts/sf_cartoonist_hand-webfont.woff2') format('woff2'),
-         url('../fonts/sf_cartoonist_hand-webfont.woff') format('woff'),
-         url('../fonts/SF_Cartoonist_Hand.ttf') format('truetype');
+    font-family: 'Franklin';
+    src: url('../fonts/FRABK.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -11,12 +9,12 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "cartoon", Helvetica;
+	font-family: "Franklin";
 }
 
 #banner{
 	color: #FFFFFF;
-	background-color: #134F5C;
+	background-color: #005883;
 	padding: 10;
 	margin: 30;
 	margin-right: 30;
@@ -37,40 +35,63 @@ body{
 	margin: 30;
 	margin-right: 30;
 	margin-left: 30;
-	font-size: 20;
+	font-size: 1em;
 }
 
-#conceptos{
+#conceptos, #caracteristicas, #normas{
+	margin: 30;
 	margin-right: 30;
 	margin-left: 30;
-	font-size: 20;
+	font-size: 1em;
 }
 
-#titulo_conceptos{
+#titulo_conceptos, #titulo_normas{
 	margin: 0;
-	color: #134F5C;
-
+	color: #005883;
 }
 
-#definicion_conceptos{
+#titulo_caracteristicas{
 	margin: 0;
+	color: #005883;
+}
+
+#definicion_conceptos, #definicion_caracteristicas, #definicion_normas{
+	margin-top: 10;
 }
 
 #seguir_leyendo{
-	color: #134F5C;
+	color: #005883;
 }
 
-#img_conceptos{
-	width: 400;
+#img_conceptos, #img_normas{
+	width: 300;
 	margin-right: 30;
 	margin-left: 30;
 }
 
+#img_caracteristicas{
+	margin-right: 30;
+	margin-left: 0;
+	width: 350;
+}
+
 #piepagina{
-	background-color: #134F5C;
-	padding: 10;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 20;
 	margin: 30;
 	margin-right: 30;
 	margin-left: 30;
 	text-align: left;
+	width: 1250;
+	height: 80;
+}
+
+#img_logo_unad{
+	margin: 0;
+	margin-right: 200;
+}
+
+#creadores{
+	font-size: 1em;
 }
