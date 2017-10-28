@@ -12,13 +12,20 @@ body{
 	font-family: "Franklin";
 }
 
-#banner{
+#contenedor{
+	width: 1000;
+	margin: auto;
+	margin-top: 20;
+	margin-bottom: 20;
+	overflow: hidden;
+	font-family: "Franklin";
+}
+
+header{
+	border-radius: 10px;
 	color: #FFFFFF;
 	background-color: #005883;
 	padding: 10;
-	margin: 30;
-	margin-right: 30;
-	margin-left: 30;
 	text-align: center;
 	font-size: 2em;
 }
@@ -31,18 +38,61 @@ body{
 	margin: 0;
 }
 
-#saludo{
-	margin: 30;
-	margin-right: 30;
-	margin-left: 30;
-	font-size: 1em;
+nav{
+	border-radius: 10px;
+	height: 40;
+	background-color: #F0B429;
+	}
+
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 0px;
 }
 
-#conceptos, #caracteristicas, #normas{
-	margin: 30;
-	margin-right: 30;
-	margin-left: 30;
+nav a{
+	color: #FFFFFF;
+	font-size: 20;
+	text-decoration: none;
+	padding: 10;
+}
+
+nav a:hover{
+	background-color: #FFFFFF;
+	color: #F0B429;
+}
+
+#contenido{
+	width: 750px;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10;
+	margin-right: 20;
+}
+
+aside{
+	background-color: #005883;
+	border-radius: 10px;
+	margin-top: 25;
+	float: right;
+	width: 220px;
+	color: #FFFFFF;
+	padding: 5;
+}
+
+h3{
+	font-size: 25;
+	text-align: center;
+}
+
+#publicidad{
+	text-align: justify;
+}
+
+#saludo, #conceptos, #caracteristicas, #normas{
 	font-size: 1em;
+	text-align: justify;
 }
 
 #titulo_conceptos, #titulo_normas{
@@ -60,38 +110,54 @@ body{
 }
 
 #seguir_leyendo{
-	color: #005883;
+	color: #F0B429;
+	text-decoration: none;
 }
 
-#img_conceptos, #img_normas{
+#seguir_leyendo:hover{
+	color: #005883;
+	text-decoration: none;
+}
+
+#img_conceptos{
+	float: left;
 	width: 300;
-	margin-right: 30;
-	margin-left: 30;
+	margin-right: 20;
 }
 
 #img_caracteristicas{
-	margin-right: 30;
-	margin-left: 0;
-	width: 350;
+	float: right;
+	width: 300;
+	margin-right:0;
+	margin-left: 20;
 }
 
-#piepagina{
+#img_normas{
+	float: left;
+	width: 250;
+	margin-left: 0;
+	margin-right: 20;
+}
+
+footer{
+	border-radius: 10px;
+	float: left;
+	width: 1000;
+	height: 60;
 	color: #FFFFFF;
 	background-color: #000000;
-	padding: 20;
-	margin: 30;
-	margin-right: 30;
-	margin-left: 30;
-	text-align: left;
-	width: 1250;
-	height: 80;
 }
 
 #img_logo_unad{
-	margin: 0;
-	margin-right: 200;
+	float: left;
+	margin-top:  10;
+	margin-left: 300;
+	line-height: 35;
 }
 
-#creadores{
-	font-size: 1em;
+footer p{
+	font-size: 12;
+	margin-right: 250;
+	float: right;
+	line-height: 3;
 }
