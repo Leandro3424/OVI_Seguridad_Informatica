@@ -71,25 +71,6 @@ nav a:hover{
 	margin-right: 20;
 }
 
-aside{
-	background-color: #005883;
-	border-radius: 10px;
-	margin-top: 25;
-	float: right;
-	width: 220px;
-	color: #FFFFFF;
-	padding: 5;
-}
-
-h3{
-	font-size: 25;
-	text-align: center;
-}
-
-#publicidad{
-	text-align: justify;
-}
-
 #saludo, #conceptos, #caracteristicas, #normas{
 	font-size: 1em;
 	text-align: justify;
@@ -137,6 +118,36 @@ h3{
 	width: 250;
 	margin-left: 0;
 	margin-right: 20;
+}
+
+aside{
+	background-color: #005883;
+	border-radius: 10px;
+	margin-top: 25;
+	margin-bottom: 25;
+	float: right;
+	width: 220px;
+	color: #FFFFFF;
+	padding: 5;
+}
+
+h3{
+	font-size: 25;
+	text-align: center;
+}
+
+#publicidad{
+	text-align: justify;
+}
+
+#twitter{
+	height: 500px;
+	overflow: scroll;
+	margin-bottom: 30;
+}
+
+#contador{
+	margin-left: 28;
 }
 
 footer{
