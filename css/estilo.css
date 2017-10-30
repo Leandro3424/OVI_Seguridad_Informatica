@@ -42,6 +42,7 @@ nav{
 	border-radius: 10px;
 	height: 40;
 	background-color: #F0B429;
+	margin-bottom: 10;
 	}
 
 nav li{
@@ -62,25 +63,16 @@ nav a:hover{
 	color: #F0B429;
 }
 
-
-nav a:.video-Seguridad {
-position: relative;
-padding-bottom: 100.25%; /* 16/9 ratio */
-padding-top: 100px; /* IE6 workaround*/
-height: 0;
-overflow: hidden;
-
+#contenido_videos{
+	color: #005883;
+	float: left;
+	margin-bottom: 30;
 }
-.video-Seguridad iframe,
-.video-Seguridad object,
-.video-Seguridad embed {
 
-position: absolute;
-top: 0;
-left: 0;
-width: 800%;
-height: 800%;
-
+#video1, #video2{
+	margin-left: 150px;
+	width: 500px;
+	height: 400px;
 }
 
 #contenido{
@@ -97,7 +89,7 @@ height: 800%;
 	text-align: justify;
 }
 
-#titulo_conceptos, #titulo_normas{
+#titulo_conceptos, #titulo_normas, #titulo_tecnologias, #titulo_principios, #titulo_organismos{
 	margin: 0;
 	color: #005883;
 }
@@ -107,8 +99,9 @@ height: 800%;
 	color: #005883;
 }
 
-#definicion_conceptos, #definicion_caracteristicas, #definicion_normas{
+#definicion_conceptos, #definicion_caracteristicas, #definicion_normas, #principios, #tecnologias, #organismos{
 	margin-top: 10;
+	text-align: justify;
 }
 
 #seguir_leyendo{
