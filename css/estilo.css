@@ -63,18 +63,6 @@ nav a:hover{
 	color: #F0B429;
 }
 
-#contenido_videos{
-	color: #005883;
-	float: left;
-	margin-bottom: 30;
-}
-
-#video1, #video2{
-	margin-left: 150px;
-	width: 500px;
-	height: 400px;
-}
-
 #contenido{
 	width: 750px;
 	float: left;
@@ -132,6 +120,27 @@ nav a:hover{
 	width: 250;
 	margin-left: 0;
 	margin-right: 20;
+}
+
+#contenido_videos{
+	color: #005883;
+	float: left;
+	margin-bottom: 30;
+}
+
+#video1, #video2{
+	margin-left: 150px;
+	width: 500px;
+	height: 400px;
+}
+#img_edwin, #img_omar {
+	width: 20%;
+	height: 30%;
+}
+
+#datos{
+	text-indent: bold;
+	color: #005883;
 }
 
 aside{
