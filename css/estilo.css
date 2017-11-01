@@ -72,12 +72,12 @@ nav a:hover{
 	margin-right: 20;
 }
 
-#saludo, #conceptos, #caracteristicas, #normas{
+#saludo, #conceptos, #caracteristicas, #normas, #actividades{
 	font-size: 1em;
 	text-align: justify;
 }
 
-#titulo_conceptos, #titulo_normas, #titulo_tecnologias, #titulo_principios, #titulo_organismos{
+#titulo_conceptos, #titulo_normas, #titulo_tecnologias, #titulo_principios, #titulo_organismos, #titulo_actividades{
 	margin: 0;
 	color: #005883;
 }
@@ -133,7 +133,19 @@ nav a:hover{
 	width: 500px;
 	height: 400px;
 }
-#img_edwin, #img_omar {
+
+#link_actividad{
+	font-size: 20px;
+	color: #F0B429;
+	text-decoration: none;
+}
+
+#link_actividad:hover{
+	color: #005883;
+	text-decoration: none;	
+}
+
+#img_edwin, #img_omar, #img_sergio {
 	width: 20%;
 	height: 30%;
 }
